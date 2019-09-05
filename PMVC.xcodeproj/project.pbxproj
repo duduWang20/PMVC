@@ -15,6 +15,26 @@
 		0D46214A23216C1000BEBC6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46214923216C1000BEBC6F /* main.m */; };
 		0D46215423216C1000BEBC6F /* PMVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46215323216C1000BEBC6F /* PMVCTests.m */; };
 		0D46215F23216C1000BEBC6F /* PMVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46215E23216C1000BEBC6F /* PMVCUITests.m */; };
+		0D4621A523216D9100BEBC6F /* UITextView(MVVM).m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46217323216D9100BEBC6F /* UITextView(MVVM).m */; };
+		0D4621A623216D9100BEBC6F /* VVPureEmotionsInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46217423216D9100BEBC6F /* VVPureEmotionsInputView.m */; };
+		0D4621A723216D9100BEBC6F /* UIMvvmKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46217C23216D9100BEBC6F /* UIMvvmKeyboardManager.m */; };
+		0D4621A823216D9100BEBC6F /* UIMvvmScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46218123216D9100BEBC6F /* UIMvvmScrollView.m */; };
+		0D4621A923216D9100BEBC6F /* UIMvvmLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46218223216D9100BEBC6F /* UIMvvmLabel.m */; };
+		0D4621AA23216D9100BEBC6F /* UITextViewLengthFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46218323216D9100BEBC6F /* UITextViewLengthFilter.m */; };
+		0D4621AB23216D9100BEBC6F /* UIMvvmView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46218423216D9100BEBC6F /* UIMvvmView.m */; };
+		0D4621AC23216D9100BEBC6F /* UIMVVMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46218523216D9100BEBC6F /* UIMVVMButton.m */; };
+		0D4621AD23216D9100BEBC6F /* UIButton+VVTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46218623216D9100BEBC6F /* UIButton+VVTouch.m */; };
+		0D4621AE23216D9100BEBC6F /* UITextFieldLengthFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46218723216D9100BEBC6F /* UITextFieldLengthFilter.m */; };
+		0D4621AF23216D9100BEBC6F /* UIViewControllerMvvmExentionBridger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46218923216D9100BEBC6F /* UIViewControllerMvvmExentionBridger.m */; };
+		0D4621B023216D9100BEBC6F /* NSObject+HeadElasticity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46218A23216D9100BEBC6F /* NSObject+HeadElasticity.m */; };
+		0D4621B123216D9100BEBC6F /* VVConfigurableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46219123216D9100BEBC6F /* VVConfigurableModel.m */; };
+		0D4621B223216D9100BEBC6F /* VVConfigurableTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46219823216D9100BEBC6F /* VVConfigurableTableViewCell.m */; };
+		0D4621B323216D9100BEBC6F /* VVConfigurableTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46219923216D9100BEBC6F /* VVConfigurableTableViewHeaderFooterView.m */; };
+		0D4621B423216D9100BEBC6F /* VVConfigurableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46219A23216D9100BEBC6F /* VVConfigurableView.m */; };
+		0D4621B523216D9100BEBC6F /* UIView+MVVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46219D23216D9100BEBC6F /* UIView+MVVM.m */; };
+		0D4621B623216D9100BEBC6F /* UITableView+MVVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4621A123216D9100BEBC6F /* UITableView+MVVM.m */; };
+		0D4621B723216D9100BEBC6F /* UIViewController+MVVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4621A323216D9100BEBC6F /* UIViewController+MVVM.m */; };
+		0D4621B823216D9100BEBC6F /* UICollectionView+MVVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4621A423216D9100BEBC6F /* UICollectionView+MVVM.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +71,50 @@
 		0D46215A23216C1000BEBC6F /* PMVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PMVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D46215E23216C1000BEBC6F /* PMVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMVCUITests.m; sourceTree = "<group>"; };
 		0D46216023216C1000BEBC6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D46217323216D9100BEBC6F /* UITextView(MVVM).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView(MVVM).m"; sourceTree = "<group>"; };
+		0D46217423216D9100BEBC6F /* VVPureEmotionsInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVPureEmotionsInputView.m; sourceTree = "<group>"; };
+		0D46217523216D9100BEBC6F /* UIMvvmView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMvvmView.h; sourceTree = "<group>"; };
+		0D46217623216D9100BEBC6F /* UITextViewLengthFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextViewLengthFilter.h; sourceTree = "<group>"; };
+		0D46217723216D9100BEBC6F /* UIMvvmScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMvvmScrollView.h; sourceTree = "<group>"; };
+		0D46217823216D9100BEBC6F /* UIMvvmLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMvvmLabel.h; sourceTree = "<group>"; };
+		0D46217923216D9100BEBC6F /* UIMVVMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMVVMButton.h; sourceTree = "<group>"; };
+		0D46217A23216D9100BEBC6F /* NSObject+HeadElasticity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HeadElasticity.h"; sourceTree = "<group>"; };
+		0D46217B23216D9100BEBC6F /* UIViewControllerMvvmExentionBridger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerMvvmExentionBridger.h; sourceTree = "<group>"; };
+		0D46217C23216D9100BEBC6F /* UIMvvmKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMvvmKeyboardManager.m; sourceTree = "<group>"; };
+		0D46217D23216D9100BEBC6F /* UIButton+VVTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+VVTouch.h"; sourceTree = "<group>"; };
+		0D46217E23216D9100BEBC6F /* UITextFieldLengthFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextFieldLengthFilter.h; sourceTree = "<group>"; };
+		0D46217F23216D9100BEBC6F /* VVPureEmotionsInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVPureEmotionsInputView.h; sourceTree = "<group>"; };
+		0D46218023216D9100BEBC6F /* UITextView(MVVM).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView(MVVM).h"; sourceTree = "<group>"; };
+		0D46218123216D9100BEBC6F /* UIMvvmScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMvvmScrollView.m; sourceTree = "<group>"; };
+		0D46218223216D9100BEBC6F /* UIMvvmLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMvvmLabel.m; sourceTree = "<group>"; };
+		0D46218323216D9100BEBC6F /* UITextViewLengthFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextViewLengthFilter.m; sourceTree = "<group>"; };
+		0D46218423216D9100BEBC6F /* UIMvvmView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMvvmView.m; sourceTree = "<group>"; };
+		0D46218523216D9100BEBC6F /* UIMVVMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMVVMButton.m; sourceTree = "<group>"; };
+		0D46218623216D9100BEBC6F /* UIButton+VVTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+VVTouch.m"; sourceTree = "<group>"; };
+		0D46218723216D9100BEBC6F /* UITextFieldLengthFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextFieldLengthFilter.m; sourceTree = "<group>"; };
+		0D46218823216D9100BEBC6F /* UIMvvmKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMvvmKeyboardManager.h; sourceTree = "<group>"; };
+		0D46218923216D9100BEBC6F /* UIViewControllerMvvmExentionBridger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerMvvmExentionBridger.m; sourceTree = "<group>"; };
+		0D46218A23216D9100BEBC6F /* NSObject+HeadElasticity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HeadElasticity.m"; sourceTree = "<group>"; };
+		0D46218E23216D9100BEBC6F /* VVConfigurableDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVConfigurableDelegateProtocol.h; sourceTree = "<group>"; };
+		0D46218F23216D9100BEBC6F /* VVConfigurableDataSourceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVConfigurableDataSourceProtocol.h; sourceTree = "<group>"; };
+		0D46219123216D9100BEBC6F /* VVConfigurableModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVConfigurableModel.m; sourceTree = "<group>"; };
+		0D46219223216D9100BEBC6F /* VVConfigurableModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVConfigurableModelProtocol.h; sourceTree = "<group>"; };
+		0D46219323216D9100BEBC6F /* VVConfigurableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVConfigurableModel.h; sourceTree = "<group>"; };
+		0D46219523216D9100BEBC6F /* VVConfigurableTableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVConfigurableTableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		0D46219623216D9100BEBC6F /* VVConfigurableTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVConfigurableTableViewCell.h; sourceTree = "<group>"; };
+		0D46219723216D9100BEBC6F /* VVConfigurableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVConfigurableView.h; sourceTree = "<group>"; };
+		0D46219823216D9100BEBC6F /* VVConfigurableTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVConfigurableTableViewCell.m; sourceTree = "<group>"; };
+		0D46219923216D9100BEBC6F /* VVConfigurableTableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVConfigurableTableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		0D46219A23216D9100BEBC6F /* VVConfigurableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVConfigurableView.m; sourceTree = "<group>"; };
+		0D46219B23216D9100BEBC6F /* VVConfigurablePresentationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVConfigurablePresentationProtocol.h; sourceTree = "<group>"; };
+		0D46219D23216D9100BEBC6F /* UIView+MVVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MVVM.m"; sourceTree = "<group>"; };
+		0D46219E23216D9100BEBC6F /* UITableView+MVVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+MVVM.h"; sourceTree = "<group>"; };
+		0D46219F23216D9100BEBC6F /* UIViewController+MVVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MVVM.h"; sourceTree = "<group>"; };
+		0D4621A023216D9100BEBC6F /* UICollectionView+MVVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+MVVM.h"; sourceTree = "<group>"; };
+		0D4621A123216D9100BEBC6F /* UITableView+MVVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+MVVM.m"; sourceTree = "<group>"; };
+		0D4621A223216D9100BEBC6F /* UIView+MVVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MVVM.h"; sourceTree = "<group>"; };
+		0D4621A323216D9100BEBC6F /* UIViewController+MVVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MVVM.m"; sourceTree = "<group>"; };
+		0D4621A423216D9100BEBC6F /* UICollectionView+MVVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+MVVM.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +165,9 @@
 		0D46213923216C0F00BEBC6F /* PMVC */ = {
 			isa = PBXGroup;
 			children = (
+				0D46217223216D9100BEBC6F /* Components */,
+				0D46218B23216D9100BEBC6F /* ConfigurableView */,
+				0D46219C23216D9100BEBC6F /* MVVM */,
 				0D46213A23216C0F00BEBC6F /* AppDelegate.h */,
 				0D46213B23216C0F00BEBC6F /* AppDelegate.m */,
 				0D46213D23216C0F00BEBC6F /* ViewController.h */,
@@ -130,6 +197,87 @@
 				0D46216023216C1000BEBC6F /* Info.plist */,
 			);
 			path = PMVCUITests;
+			sourceTree = "<group>";
+		};
+		0D46217223216D9100BEBC6F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0D46217323216D9100BEBC6F /* UITextView(MVVM).m */,
+				0D46217423216D9100BEBC6F /* VVPureEmotionsInputView.m */,
+				0D46217523216D9100BEBC6F /* UIMvvmView.h */,
+				0D46217623216D9100BEBC6F /* UITextViewLengthFilter.h */,
+				0D46217723216D9100BEBC6F /* UIMvvmScrollView.h */,
+				0D46217823216D9100BEBC6F /* UIMvvmLabel.h */,
+				0D46217923216D9100BEBC6F /* UIMVVMButton.h */,
+				0D46217A23216D9100BEBC6F /* NSObject+HeadElasticity.h */,
+				0D46217B23216D9100BEBC6F /* UIViewControllerMvvmExentionBridger.h */,
+				0D46217C23216D9100BEBC6F /* UIMvvmKeyboardManager.m */,
+				0D46217D23216D9100BEBC6F /* UIButton+VVTouch.h */,
+				0D46217E23216D9100BEBC6F /* UITextFieldLengthFilter.h */,
+				0D46217F23216D9100BEBC6F /* VVPureEmotionsInputView.h */,
+				0D46218023216D9100BEBC6F /* UITextView(MVVM).h */,
+				0D46218123216D9100BEBC6F /* UIMvvmScrollView.m */,
+				0D46218223216D9100BEBC6F /* UIMvvmLabel.m */,
+				0D46218323216D9100BEBC6F /* UITextViewLengthFilter.m */,
+				0D46218423216D9100BEBC6F /* UIMvvmView.m */,
+				0D46218523216D9100BEBC6F /* UIMVVMButton.m */,
+				0D46218623216D9100BEBC6F /* UIButton+VVTouch.m */,
+				0D46218723216D9100BEBC6F /* UITextFieldLengthFilter.m */,
+				0D46218823216D9100BEBC6F /* UIMvvmKeyboardManager.h */,
+				0D46218923216D9100BEBC6F /* UIViewControllerMvvmExentionBridger.m */,
+				0D46218A23216D9100BEBC6F /* NSObject+HeadElasticity.m */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0D46218B23216D9100BEBC6F /* ConfigurableView */ = {
+			isa = PBXGroup;
+			children = (
+				0D46218E23216D9100BEBC6F /* VVConfigurableDelegateProtocol.h */,
+				0D46218F23216D9100BEBC6F /* VVConfigurableDataSourceProtocol.h */,
+				0D46219723216D9100BEBC6F /* VVConfigurableView.h */,
+				0D46219A23216D9100BEBC6F /* VVConfigurableView.m */,
+				0D46219023216D9100BEBC6F /* Model */,
+				0D46219423216D9100BEBC6F /* Views */,
+			);
+			path = ConfigurableView;
+			sourceTree = "<group>";
+		};
+		0D46219023216D9100BEBC6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0D46219123216D9100BEBC6F /* VVConfigurableModel.m */,
+				0D46219223216D9100BEBC6F /* VVConfigurableModelProtocol.h */,
+				0D46219323216D9100BEBC6F /* VVConfigurableModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0D46219423216D9100BEBC6F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D46219B23216D9100BEBC6F /* VVConfigurablePresentationProtocol.h */,
+				0D46219823216D9100BEBC6F /* VVConfigurableTableViewCell.m */,
+				0D46219623216D9100BEBC6F /* VVConfigurableTableViewCell.h */,
+				0D46219523216D9100BEBC6F /* VVConfigurableTableViewHeaderFooterView.h */,
+				0D46219923216D9100BEBC6F /* VVConfigurableTableViewHeaderFooterView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0D46219C23216D9100BEBC6F /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				0D46219D23216D9100BEBC6F /* UIView+MVVM.m */,
+				0D46219E23216D9100BEBC6F /* UITableView+MVVM.h */,
+				0D46219F23216D9100BEBC6F /* UIViewController+MVVM.h */,
+				0D4621A023216D9100BEBC6F /* UICollectionView+MVVM.h */,
+				0D4621A123216D9100BEBC6F /* UITableView+MVVM.m */,
+				0D4621A223216D9100BEBC6F /* UIView+MVVM.h */,
+				0D4621A323216D9100BEBC6F /* UIViewController+MVVM.m */,
+				0D4621A423216D9100BEBC6F /* UICollectionView+MVVM.m */,
+			);
+			path = MVVM;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +410,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D4621A723216D9100BEBC6F /* UIMvvmKeyboardManager.m in Sources */,
 				0D46213F23216C0F00BEBC6F /* ViewController.m in Sources */,
+				0D4621B523216D9100BEBC6F /* UIView+MVVM.m in Sources */,
+				0D4621AA23216D9100BEBC6F /* UITextViewLengthFilter.m in Sources */,
+				0D4621A623216D9100BEBC6F /* VVPureEmotionsInputView.m in Sources */,
+				0D4621AB23216D9100BEBC6F /* UIMvvmView.m in Sources */,
+				0D4621B623216D9100BEBC6F /* UITableView+MVVM.m in Sources */,
+				0D4621B823216D9100BEBC6F /* UICollectionView+MVVM.m in Sources */,
+				0D4621AD23216D9100BEBC6F /* UIButton+VVTouch.m in Sources */,
+				0D4621B423216D9100BEBC6F /* VVConfigurableView.m in Sources */,
+				0D4621B023216D9100BEBC6F /* NSObject+HeadElasticity.m in Sources */,
+				0D4621AF23216D9100BEBC6F /* UIViewControllerMvvmExentionBridger.m in Sources */,
+				0D4621B223216D9100BEBC6F /* VVConfigurableTableViewCell.m in Sources */,
+				0D4621B723216D9100BEBC6F /* UIViewController+MVVM.m in Sources */,
+				0D4621AE23216D9100BEBC6F /* UITextFieldLengthFilter.m in Sources */,
+				0D4621AC23216D9100BEBC6F /* UIMVVMButton.m in Sources */,
+				0D4621B323216D9100BEBC6F /* VVConfigurableTableViewHeaderFooterView.m in Sources */,
 				0D46214A23216C1000BEBC6F /* main.m in Sources */,
+				0D4621A923216D9100BEBC6F /* UIMvvmLabel.m in Sources */,
+				0D4621A523216D9100BEBC6F /* UITextView(MVVM).m in Sources */,
+				0D4621A823216D9100BEBC6F /* UIMvvmScrollView.m in Sources */,
+				0D4621B123216D9100BEBC6F /* VVConfigurableModel.m in Sources */,
 				0D46213C23216C0F00BEBC6F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
